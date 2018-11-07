@@ -12,3 +12,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+button{
+  padding: 10px;
+  margin: 10px;
+  font-family: "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+}
+.test{
+  padding: 10px;
+  background: yellow;
+  transition: all .5s cubic-bezier(0.4, 0, 1, 1);
+}
+.test.active{
+  background: red;
+  color: white
+}
